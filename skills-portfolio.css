@@ -43,14 +43,14 @@ article {
 }
 
 .box:first-child>h1 {
-    font-size: 20px;
+    font-size: 1.25em;
     font-weight: 800;
     color: var(--content-default);
     margin: 0px;
 }
 
 .box:first-child>p {
-    font-size: 14px;
+    font-size: 0.875em;
     margin: 0px;
     overflow-y: scroll;
     box-sizing: border-box;

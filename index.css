@@ -2,10 +2,10 @@ main article h1 {
     font-family: "Kanit", sans-serif;
     font-weight: 700;
     font-style: normal;
-    font-size: 20px;
+    font-size: 1.25em;
 }
 main article p {
-    font-size: 16px;
+    font-size: 1em;
 }
 main {
     text-align: center;
