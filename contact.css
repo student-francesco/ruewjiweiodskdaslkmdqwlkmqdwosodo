@@ -1,0 +1,36 @@
+main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    border: 1px solid var(--bg-subtle);
+    padding: 12px;
+    border-radius: 0.25rem;
+    width: 346px;
+}
+
+.header h1 {
+    margin-bottom: 0px;
+}
+.header {
+    width: 292px;
+}
+.header span {
+    color: var(--content-subtle);
+}
+
+button {
+    border: none;
+    background-color: var(--bg-subtle);
+    border-radius: 0.25rem;
+}
+
+
+.continue:before {
+    content: '<- ';
+}

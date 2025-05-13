@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --bg-subtle: #FDF4EB;
+    --bg: #FFFBF6;
+    --content-url: #5C8CF4;
+    --content-subtle: #677B65;
+    --content-default: #232B22;
+
+    font-family: "Inter", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: var(--content-default);
+}
+
+html {
+    background-color: var(--bg);
+}
+
+body {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    box-sizing: content-box;
+    font-family: "Inter", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.profile-img {
+    border-radius: 999px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+main h1 {
+    font-size: 24px;
+}
+
+.continue {
+    border-radius: 8px;
+    border: 1px solid var(--content-subtle);
+    color: var(--content-subtle);
+    padding: 6px;
+    font-weight: 600;
+    margin-top: 4rem;
+}
+
+.continue::before {
+    content: "-> ";
+}
+.continue {
+    text-decoration: none;
+}
+
+.justify-right {
+    display: flex;
+    justify-items: center;
+    justify-content: end;
+}

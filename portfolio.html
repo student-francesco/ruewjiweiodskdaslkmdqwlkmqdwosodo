@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me | Francesco Baciu</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="fonts.css">
+    <link rel="stylesheet" href="skills-portfolio.css">
+</head>
+
+<body>
+    <section class="nav-container">
+        <header>
+            <div class="profile">
+                <img src="/img/profile.jpeg" alt="profile picture" class="profile" />
+            </div>
+            <div class="nav-introduction">
+                <div>
+                    <h1>Hey, I'm Francesco Baciu</h1>
+
+                    <div class="nav-introduction-bullet">
+                        <span>👨‍💻 Software Engineer</span>
+                        <span>📍 Working at INFICON AG Balzers</span>
+                    </div>
+                </div>
+                <div>
+
+                </div>
+            </div>
+        </header>
+        <nav class="nav-items">
+            <a href="/">About Me</a>
+            <a href="/skills.html">Skills</a>
+            <a href="/portfolio.html" id="nav-item-active">Portfolio</a>
+            <a href="/contact.html">Contact</a>
+        </nav>
+    </section>
+    <hr />
+
+
+    <main>
+
+        <article>
+            <h1>My Ideas & Results</h1>
+
+            <div class="list">
+                <div class="box">
+                    <div>
+                        <h1>Top #1 - brainTrain</h1>
+                        <p>I learn my vocabulary with brainTrain, for school or whatever I like.</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div>
+                        <h1>Top #2 - Sentinel</h1>
+                        <p>
+                            Sentinel AI Anticheat is an AI model which detects Baritone clients in Minecraft.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </article>
+
+        <article>
+            <h1>Genuine Code Samples</h1>
+
+            <div class="list">
+                <div class="box full">
+                    <div>
+                        <h1>Javascript Map</h1>
+                        <code>setCards(prev => prev.map((currentCard, index) =>
+                            index === i
+                                ? { ...currentCard, key, value }
+                                : currentCard
+                        ));</code>
+                    </div>
+                </div>
+
+                <div class="box full">
+                    <div>
+                        <h1>Preferred Code Structure</h1>
+                        <code>my-nextjs-project/<br/>
+                            ├── src/<br/>
+                            │   ├── common/                  # Utility functions, constants, and shared logic<br/>
+                            │   │   ├── constants/          # Constants used across the app<br/>
+                            │   │   │   └── index.ts<br/>
+                            │   │   ├── utils/             # Helper functions<br/>
+                            │   │   │   └── index.ts<br/>
+                            │   │   ├── types/            # TypeScript type definitions<br/>
+                            │   │   │   └── index.ts<br/>
+                            │   │   └── hooks/            # Custom React hooks<br/>
+                            │   │       └── index.ts<br/>
+                            │   │<br/>
+                            │   ├── components/            # Reusable UI components<br/>
+                            │   │   ├── shared/           # Components used across multiple pages<br/>
+                            │   │   │   ├── Button/<br/>
+                            │   │   │   │   └── index.tsx<br/>
+                            │   │   │   ├── Header/<br/>
+                            │   │   │   │   └── index.tsx<br/>
+                            │   │   │   ├── Footer/<br/>
+                            │   │   │   │   └── index.tsx<br/>
+                            │   │   │   └── Layout/<br/>
+                            │   │   │       └── index.tsx<br/>
+                            │   │   │<br/>
+                            │   │   └── shopping-cart/    # [Shopping cart] specific components<br/>
+                            │   │       ├── CartItem/<br/>
+                            │   │       │   └── index.tsx<br/>
+                            │   │       ├── CartSummary/<br/>
+                            │   │       │   └── index.tsx<br/>
+                            │   │       ├── CheckoutButton/<br/>
+                            │   │       │   └── index.tsx<br/>
+                            │   │       └── EmptyCart/<br/>
+                            │   │           └── index.tsx<br/>
+                            │   │<br/>
+                            │   ├...<br/>
+                            │<br/>
+                        </code>
+                    </div>
+                </div>
+
+                <div class="box full">
+                    <div>
+                        <h1>Floating Action Button Mathematics</h1>
+                        <code>const getCoords = (r: number, radians: number) => [r * Math.cos(radians), r * Math.sin(radians)];<br />
+<br />
+                            const r = 75;<br />
+                            const angle = 45 * Math.PI / 180;<br />
+                            const angleOffset = 30 * Math.PI / 180<br />
+                            const coords_a = getCoords(r, angle - angleOffset).map(v => v * -1 + 'px').join(',')<br />
+                            const coords_b = getCoords(r, angle).map(v => v * -1 + 'px').join(',')<br />
+                            const coords_c = getCoords(r, angle + angleOffset).map(v => v * -1 + 'px').join(',')<br />
+                            <br />
+                            const r_sm = 69;<br />
+                            const coords_a_sm = getCoords(r_sm, angle - angleOffset).map(v => v * -1 + 'px').join(',')<br />
+                            const coords_b_sm = getCoords(r_sm, angle).map(v => v * -1 + 'px').join(',')<br />
+                            const coords_c_sm = getCoords(r_sm, angle + angleOffset).map(v => v * -1 + 'px').join(',')<br />
+                        </code>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </main>
+
+    <div class="justify-right">
+        <a href="contact.html" class="continue">Continue to Contact</a>
+    </div>
+</body>
+
+</html>
