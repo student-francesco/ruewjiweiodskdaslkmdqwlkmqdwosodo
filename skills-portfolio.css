@@ -78,7 +78,7 @@ article {
     height: 100%;
 }
 
-code {
+.code {
     background-color: var(--bg);
     padding: 8px;
     flex-grow: 1;

@@ -59,3 +59,8 @@ main h1 {
     justify-items: center;
     justify-content: end;
 }
+
+video {
+    border-radius: 0.25rem;
+    max-width: 90vw;
+}

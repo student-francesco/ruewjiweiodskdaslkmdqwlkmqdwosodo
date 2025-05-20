@@ -62,6 +62,12 @@
                     </div>
                 </div>
             </div>
+
+
+            <h2>BrainTrain Video</h2>
+            <video src="static/braintrain.mov" autoplay>
+                
+            </video>
         </article>
 
         <article>
@@ -71,17 +77,21 @@
                 <div class="box full">
                     <div>
                         <h1>Javascript Map</h1>
+                        <div class="code">
                         <code>setCards(prev => prev.map((currentCard, index) =>
                             index === i
                                 ? { ...currentCard, key, value }
                                 : currentCard
-                        ));</code>
+                        ));
+                    </code>
+                    </div>
                     </div>
                 </div>
 
                 <div class="box full">
                     <div>
                         <h1>Preferred Code Structure</h1>
+                        <div class="code">
                         <code>my-nextjs-project/<br/>
                             ├── src/<br/>
                             │   ├── common/                  # Utility functions, constants, and shared logic<br/>
@@ -119,11 +129,13 @@
                             │<br/>
                         </code>
                     </div>
+                    </div>
                 </div>
 
                 <div class="box full">
                     <div>
                         <h1>Floating Action Button Mathematics</h1>
+                        <div class="code">
                         <code>const getCoords = (r: number, radians: number) => [r * Math.cos(radians), r * Math.sin(radians)];<br />
 <br />
                             const r = 75;<br />
@@ -138,6 +150,7 @@
                             const coords_b_sm = getCoords(r_sm, angle).map(v => v * -1 + 'px').join(',')<br />
                             const coords_c_sm = getCoords(r_sm, angle + angleOffset).map(v => v * -1 + 'px').join(',')<br />
                         </code>
+                    </div>
                     </div>
                 </div>
             </div>
